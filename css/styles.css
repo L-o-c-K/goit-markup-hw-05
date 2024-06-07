@@ -527,7 +527,7 @@ body {
     margin-left: 80px;
   }
   
-  .s-subscribe-caption {
+  .section-subscribe-caption {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -536,14 +536,14 @@ body {
     margin-bottom: 16px;
   }
   
-  .s-subscribe-form {
+  .section-subscribe-form {
     display: flex;
     gap: 24px;
   }
   
-  .s-subscribe-label {}
+  .section-subscribe-label {}
   
-  .s-subscribe-input {
+  .section-subscribe-input {
     font-weight: 400;
     font-size: 12px;
     line-height: 2.0;
@@ -558,11 +558,11 @@ body {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   }
   
-  .s-subscribe-input::placeholder {
+  .section-subscribe-input::placeholder {
     color: #fff;
   }
   
-  .s-subscribe-button {
+  .section-subscribe-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -582,7 +582,7 @@ body {
     border: none;
   }
   
-  .s-subscribe-icon {
+  .section-subscribe-icon {
     margin-left: 16px;
     fill: #fff;
   }
