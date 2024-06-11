@@ -745,7 +745,7 @@ img {
   margin-bottom: 16px
 }
 
-.modal-textarea {
+.overlay-textarea {
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
@@ -762,7 +762,7 @@ img {
   resize: none;
 }
 
-.modal-textarea::placeholder {
+.overlay-textarea::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
@@ -770,7 +770,7 @@ img {
   color: rgba(46, 47, 66, 0.4);
 }
 
-.modal-textarea:focus {
+.overlay-textarea:focus {
   border-color: #4D5AE5;
 }
 
@@ -808,7 +808,7 @@ img {
   color: #4d5ae5;
 }
 
-.modal-checkbox-label-box {
+.overlay-checkbox-label-box {
   width: 16px;
   height: 16px;
   border-radius: 2px;
