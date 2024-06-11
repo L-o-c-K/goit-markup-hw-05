@@ -425,69 +425,69 @@
   </footer>
   <!-- modal window -->
   <!-- add is-open class to next div for open modal window -->
-  <div class="window-overlay" window>
-    <div class="window">
-      <button class="window-close-button" type="button" close>
-        <svg class="window-close-icon" width="8" height="8">
+  <div>
+    <div>
+      <button>
+        <svg width="8" height="8">
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
-      <p class="window-caption">Leave your contacts and we will call you back</p>
-      <form class="window-form">
-        <div class="window-input-wrapper">
-          <label class="window-label" for="user-name">Name</label>
-          <div class="window-input-frame">
-            <input class="window-input" type="text" name="user-name" id="user-name" placeholder="UserName" required
+      <p class="caption">Leave your contacts and we will call you back</p>
+      <form class="form">
+        <div class="input-wrapper">
+          <label class="label" for="user-name">Name</label>
+          <div class="input-frame">
+            <input class="input" type="text" name="user-name" id="user-name" placeholder="UserName" required
               pattern="[A-Za-z0-9]{2,15}" title="min 2 max 15 symbols" />
-            <svg class="window-input-icon" width="18" height="24">
+            <svg class="input-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-name"></use>
             </svg>
           </div>
         </div>
 
-        <div class="window-input-wrapper">
-          <label class="window-label" for="user-phone">Phone</label>
-          <div class="window-input-frame">
-            <input class="window-input" type="tel" name="user-phone" id="user-phone" placeholder="123456789012"
+        <div class="input-wrapper">
+          <label class="label" for="user-phone">Phone</label>
+          <div class="input-frame">
+            <input class="input" type="tel" name="user-phone" id="user-phone" placeholder="123456789012"
               pattern="[0-9]{10}" required title="Enter your phone number in 123456789012 format" />
-            <svg class="window-input-icon" width="18" height="24">
+            <svg class="input-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </div>
         </div>
 
-        <div class="window-input-wrapper">
-          <label class="window-label" for="user-email">Email</label>
-          <div class="window-input-frame">
-            <input class="window-input" type="email" name="user-email" id="user-email" placeholder="name@example.com"
+        <div class="input-wrapper">
+          <label class="label" for="user-email">Email</label>
+          <div class="input-frame">
+            <input class="input" type="email" name="user-email" id="user-email" placeholder="name@example.com"
               pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required
               title="Enter your email in name@example.com format" />
-            <svg class="window-input-icon" width="18" height="24">
+            <svg class="input-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
           </div>
         </div>
 
-        <div class="window-comment-wrapper">
-          <label class="window-label" for="user-comment">Comment</label>
-          <textarea class="window-textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+        <div class="comment-wrapper">
+          <label class="label" for="user-comment">Comment</label>
+          <textarea class="textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
         </div>
 
-        <div class="window-checkbox-wrapper">
-          <input class="window-checkbox visually-hidden" type="checkbox" name="user-privacy" id="user-privacy"
+        <div class="checkbox-wrapper">
+          <input class="checkbox visually-hidden" type="checkbox" name="user-privacy" id="user-privacy"
             value="true" />
-          <label class="window-checkbox-label" for="user-privacy">
-            <span class="window-checkbox-label-box">
-              <svg class="window-checkbox-icon" width="10" height="8">
+          <label class="checkbox-label" for="user-privacy">
+            <span class="checkbox-label-box">
+              <svg class="checkbox-icon" width="10" height="8">
                 <use href="./images/icons.svg#icon-icon-check"></use>
               </svg>
             </span>
             I accept the terms and conditions of the
-            <a class="window-checkbox-label-link" href="" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+            <a class="checkbox-label-link" href="" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
           </label>
         </div>
 
-        <button class="window-send-button" type="submit">Send</button>
+        <button class="send-button" type="submit">Send</button>
 
       </form>
 
