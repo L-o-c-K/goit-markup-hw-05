@@ -602,7 +602,7 @@ img {
   visibility: hidden;
 }
 
-.registr {
+.registr-overlay {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -628,7 +628,7 @@ img {
   visibility: hidden;
 }
 
-.registr-overlay {
+.registr {
   border-radius: 4px;
   width: 408px;
   min-height: 584px;
